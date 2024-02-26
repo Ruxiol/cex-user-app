@@ -19,7 +19,7 @@
   "sign_in": "Sign in",
   "sign_up": "Sign up",
   "new_user": "New user?",
-  "about": "About Marionette",
+  "about": "About CEX.ba",
   "create_account": "Create account",
   "do_you_have_account": "Have an account?",
   "terms_agree": "I agree with",
@@ -81,7 +81,7 @@
   "language": "Language",
   "past_code":"Do you want to past this code?",
   "or": "or",
-  "marionette_demo": "Marionette Demo",
+  "marionette_demo": "CEX.ba",
   "custodial_wallet": "Custodial Wallet",
   "swap_exchange": "Swap Exchange",
   "powered_by": "Powered by ",
@@ -588,13 +588,13 @@
 },
  
   "marionette_banner": {
-    "title": "Demo environment",
+    "title": "CEX.ba",
     "subtitle": "Powered by Marionette Software",
     "marquee_text": "Demo environment — Powered by Marionette Software"
   },
   "marionette_form":{
    "how_will_you":"How will you use ",
-   "marionette":"Marionette",
+   "marionette":"CEX.ba",
    "contact_form":"Contact form",
    "name":"Name",
    "email":"Email",

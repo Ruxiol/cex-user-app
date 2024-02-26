@@ -64,8 +64,8 @@ class AuthAppBar extends HookConsumerWidget {
             },
             child: UserAppImage(
               path: isLightTheme(context) ? appLogoPath : appLogoPathDark,
-              width: (isWeb ? 182 : 148).w,
-              height: (isWeb ? 30 : 26).h,
+              width: (isWeb ? 282 : 248).w,
+              height: (isWeb ? 60 : 66).h,
             ),
           ),
           const Spacer(),
@@ -162,35 +162,8 @@ class AuthAppBar extends HookConsumerWidget {
                   ),
                 )
               : const SizedBox(),
-          SizedBox(
-            height: 25.h,
-            child: Padding(
-              padding: EdgeInsets.symmetric(
-                horizontal: 25.w,
-              ),
-              child: VerticalDivider(
-                width: 1.0.w,
-                color: Theme.of(context).primaryColor.withOpacity(0.25),
-              ),
-            ),
-          ),
-          isWeb
-              ? InkWell(
-                  onTap: () async {
-                    GlobalActionsGeneral globalActionsGeneral =
-                        GlobalActionsGeneral();
-                    globalActionsGeneral.openLink(
-                        url: 'https://marionette.dev/how-it-works/');
-                  },
-                  child: Text(
-                    tr('authorization.how_to_work'),
-                    style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                          fontSize: 20.sp,
-                          fontWeight: FontWeight.w500,
-                        ),
-                  ),
-                )
-              : const SizedBox(),
+
+
           SizedBox(
             height: 25.h,
             child: Padding(

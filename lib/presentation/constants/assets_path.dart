@@ -213,8 +213,8 @@ const String scanBorder = 'assets/icons/scan_border.svg';
 const String profileIcon = 'assets/icons/profile_icon.svg';
 
 //Send forms
-const String sendFormBackgroundBlack = 'assets/icons/bk.png';
-const String sendFormBackgroundWhite = 'assets/icons/wh.png';
+// const String sendFormBackgroundBlack = 'assets/icons/bk.png';
+// const String sendFormBackgroundWhite = 'assets/icons/wh.png';
 
 ///buy/sell logo in wallet
 const String bankDarkLogo = 'assets/icons/bank_logo_dark.svg';

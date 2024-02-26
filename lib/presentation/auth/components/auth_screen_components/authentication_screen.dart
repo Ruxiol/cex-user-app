@@ -225,9 +225,7 @@ class _AuthenticationScreenState extends ConsumerState<AuthenticationScreen> {
                   ],
                 ),
               ),
-              (widget.platformType == PlatformTypeState.web)
-                  ? const ContactFormWeb()
-                  : const SizedBox(),
+              
               const FooterWeb(
                 withAuthPage: true,
               )

@@ -133,14 +133,14 @@ class ExchangeWeb extends HookConsumerWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          SizedBox(
-                            height: 48.h,
-                            width: 307.w,
-                            child: AutoSizeText(
-                              tr('authorization.marionette_demo'),
-                              style: Theme.of(context).textTheme.displayMedium,
-                            ),
-                          ),
+                          // SizedBox(
+                          //   height: 48.h,
+                          //   width: 307.w,
+                          //   child: AutoSizeText(
+                          //     tr('authorization.marionette_demo'),
+                          //     style: Theme.of(context).textTheme.displayMedium,
+                          //   ),
+                          // ),
                           const AppBenefitsRow(
                             platformType: PlatformTypeState.web,
                           ),
@@ -174,15 +174,15 @@ class ExchangeWeb extends HookConsumerWidget {
                         ],
                       ),
                     ),
-                    Positioned(
-                      top: 900.h,
-                      child: Image.asset(
-                        isLightTheme(context) ? authBanner : authBannerDark,
-                        width: MediaQuery.of(context).size.width,
-                        height: 680.h,
-                        fit: BoxFit.fill,
-                      ),
-                    ),
+                    // Positioned(
+                    //   top: 900.h,
+                    //   child: Image.asset(
+                    //     isLightTheme(context) ? authBanner : authBannerDark,
+                    //     width: MediaQuery.of(context).size.width,
+                    //     height: 680.h,
+                    //     fit: BoxFit.fill,
+                    //   ),
+                    // ),
                   ],
                 ),
               ),

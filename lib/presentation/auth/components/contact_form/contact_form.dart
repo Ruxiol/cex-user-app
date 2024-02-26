@@ -15,12 +15,7 @@ class ContactFormWeb extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-        image: DecorationImage(
-          image: isLightTheme(context)
-              ? const AssetImage(sendFormBackgroundWhite)
-              : const AssetImage(sendFormBackgroundBlack),
-          fit: BoxFit.fill,
-        ),
+
       ),
       child: Padding(
         padding: EdgeInsets.symmetric(
@@ -69,17 +64,8 @@ class ContactFormWeb extends StatelessWidget {
               SizedBox(
                 height: 50.h,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const CalendarFormWeb(),
-                  SizedBox(
-                    width: 50.w,
-                  ),
-                  const SendForm(showBookCall: false),
-                ],
-              ),
+             
+              
               SizedBox(
                 height: 50.h,
               ),
