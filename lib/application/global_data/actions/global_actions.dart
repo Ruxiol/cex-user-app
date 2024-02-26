@@ -26,6 +26,11 @@ class GlobalActionsGeneral extends IGlobalActionsInterface {
     var userConfigBox =
         await Hive.openBox<UserConfigData>(Constants.userConfig);
 
+    
+
+    var debugConfig = '{"url":"dev.wizwiz.io","terms_and_conditions_url":"","google_auth":{"enabled":true,"client_id":"608998656846-j3mg02tkkto8hiv7e7udps6klv89hc6k.apps.googleusercontent.com"},"withTradingBalance":false,"enabled_trading_page":true,"enabledStaking":true,"enabledPhoneVerificationStep":false,"enabledReferrals":true,"enabledLoginCaptcha":true,"enabled_wallet_page":true,"enabled_non_custodial_exchange_page":true,"enabled_non_custodial_wallet_connect":false,"enabledBuySell":true,"orderBookMiddle":true,"enabledSpread":true,"withInstantBuy":true,"withInstantSell":true,"enabledSellWithdrawZeroBalance":true,"enabledSumSubKYC":true}';
+
+    
     var url = Uri.parse("https://${urlApi['url']}/static/config.json");
     final responseConfigData = await https.get(
       url,
@@ -35,7 +40,23 @@ class GlobalActionsGeneral extends IGlobalActionsInterface {
       },
     );
 
+  final configData = json.decode(responseConfigData.body);
+
+  if (responseConfigData.statusCode == 200) {
     final configData = json.decode(responseConfigData.body);
+    // Now configData contains the actual response from the API
+    // Use configData as needed in your code
+    print('Config data loaded successfully: $configData');
+  } else {
+    // Handle the error, e.g., log or show an error message
+    print('Failed to load config data. Status code: ${responseConfigData.statusCode}');
+    // You can add additional error handling here
+    // For example, set default values or show an error message to the user
+    final configData = json.decode(debugConfig);
+
+    print('Using default config data: $configData');
+  }
+
 
     final globalConfigData = GlobalConfigData(
       url: configData['url'],

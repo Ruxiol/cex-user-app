@@ -32,7 +32,7 @@ void main() async {
   Hive.registerAdapter(StepperProgressAdapter());
   Hive.registerAdapter(UserConfigDataAdapter());
   Hive.registerAdapter(BottomNavigationIndexDataAdapter());
-  Paint.enableDithering = true;
+ // Paint.enableDithering = true;
 
 // if (!kIsWeb) {
 //     await Firebase.initializeApp(
