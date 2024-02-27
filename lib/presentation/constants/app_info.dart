@@ -1,2 +1,2 @@
 /// App name
-const appName = 'Marionette';
+const appName = 'CEX.ba';
