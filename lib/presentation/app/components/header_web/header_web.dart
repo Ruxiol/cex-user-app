@@ -93,13 +93,13 @@ class HeaderWeb extends HookConsumerWidget {
                           alignment: Alignment.topCenter,
                           child: SizedBox(
                             width: 282.w,
-                            height: 31.h,
+                            height: 61.h,
                             child: UserAppImage(
                               path: isLightTheme(context)
                                   ? appLogoPath
                                   : appLogoPathDark,
                               width: 246.w,
-                              height: 30.h,
+                              height: 60.h,
                             ),
                           ),
                         ),
