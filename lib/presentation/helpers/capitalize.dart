@@ -5,6 +5,6 @@ String capitalize(String str) {
 }
 
 const List<Locale> supportedLocales = [
-  Locale('en', 'US'),
   Locale('ba', 'BA'),
+  Locale('en', 'US'),
 ];
