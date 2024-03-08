@@ -557,55 +557,49 @@
     "token_expired_the_reset_link_was_already_used": "Token je istekao. Link za resetovanje je već korišten",
     "2FA code is wrong or disabled": "2FA kod je pogrešan",
     "NOT_VALID_RECIPIENT": "Nevažeća adresa"
-  }
-},
+  },
 
   "success": {
-    "success": "Success",
-    "email_was_sent": "Email was sent to address ",
-    "password_resets_successfully": "Password resets successfully",
-    "reset_password":"The email to reset the password is sent",
-    
-    "copied": "Copied",
-    "success_delete_order": "Success delete order",
-    "limit_order_created": "Limit Order was successfully created",
-    "order_processing":"Processing your order, please wait",
-    "success_delete_all_order": "Success delete all orders",
-    "market_order_created":"Market Order was successfully created",
-    "2fa_is_successfully_disabled": "2FA is successfully disabled",
-    "password_changed_successfully": "Password changed successfully",
-    "email_was_sent_to_address": "Email was sent to address",
-    "documents_submitted": "Your documents are submitted for review",
-    "2fa_successfully_enabled": "2FA is successfully enabled",
-    "phone_verified": "Phone number was successfully verified",
-    "verification_code_was_sent_to": "Verification code was sent to",
-    "successful": "Successful",
-    "deposit_option": "Deposit option is currently unavailable, please try again later",
-    "market_order_was_successfully":"Market Order was successfully created",
-    "email_is_verified":"Your email is verified, Thank you!",
-
-    "new_api_key_created": "New API Key Created",
-    "api_key_deleted": "API Key Deleted",
-    "api_token_copied": "API Token Copied"
-   
-  }
-},
- 
+    "success": "Uspjeh",
+    "email_was_sent": "Email je poslan na adresu ",
+    "password_resets_successfully": "Lozinka je uspješno resetovana",
+    "reset_password": "Email za resetovanje lozinke je poslan",
+    "copied": "Kopirano",
+    "success_delete_order": "Narudžba je uspješno obrisana",
+    "limit_order_created": "Limit Order je uspješno kreiran",
+    "order_processing": "Vaša narudžba se obrađuje, molimo sačekajte",
+    "success_delete_all_order": "Sve narudžbe su uspješno obrisane",
+    "market_order_created": "Market Order je uspješno kreiran",
+    "2fa_is_successfully_disabled": "2FA je uspješno onemogućen",
+    "password_changed_successfully": "Lozinka je uspješno promijenjena",
+    "email_was_sent_to_address": "Email je poslan na adresu",
+    "documents_submitted": "Vaši dokumenti su predani na pregled",
+    "2fa_successfully_enabled": "2FA je uspješno omogućen",
+    "phone_verified": "Telefonski broj je uspješno verificiran",
+    "verification_code_was_sent_to": "Verifikacijski kod je poslan na",
+    "successful": "Uspješno",
+    "deposit_option": "Opcija uplate trenutno nije dostupna, molimo pokušajte kasnije",
+    "market_order_was_successfully": "Market Order je uspješno kreiran",
+    "email_is_verified": "Vaš email je verificiran, Hvala vam!",
+    "new_api_key_created": "Novi API ključ je kreiran",
+    "api_key_deleted": "API ključ je obrisan",
+    "api_token_copied": "API token je kopiran"
+  },
   "marionette_banner": {
     "title": "CEX.ba",
-    "subtitle": "Powered by Marionette Software",
-    "marquee_text": "Demo environment — Powered by Marionette Software"
+    "subtitle": "Omogućeno od strane Marionette Software",
+    "marquee_text": "Demo okruženje — Omogućeno od strane Marionette Software"
   },
-  "marionette_form":{
-   "how_will_you":"How will you use ",
-   "marionette":"CEX.ba",
-   "contact_form":"Contact form",
-   "name":"Name",
-   "email":"Email",
-   "message":"Message",
-   "schedule_review":"Schedule",
-   "submit":"Submit",
-   "email_and_name_empty":"Email and Name fields must be filled",
-   "message_send_successfully":"Message sent successfully"
+  "marionette_form": {
+    "how_will_you": "Kako ćete koristiti ",
+    "marionette": "CEX.ba",
+    "contact_form": "Kontakt forma",
+    "name": "Ime",
+    "email": "Email",
+    "message": "Poruka",
+    "schedule_review": "Zakazivanje",
+    "submit": "Pošalji",
+    "email_and_name_empty": "Polja za Email i Ime moraju biti popunjena",
+    "message_send_successfully": "Poruka je uspješno poslana"
   }
 }
