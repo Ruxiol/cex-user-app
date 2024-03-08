@@ -455,7 +455,148 @@
 },
 
   
+"pro_swap":{
+  "top_up_my_primary_wallet": "Dopuni moj primarni USDT novčanik",
+  "receive": "Primi",
+  "request_from_connected_wallet": "Zahtjev iz povezanog ETH novčanika",
+  "invalid_value": "Nevažeća vrijednost",
+  "send": "Pošalji",
+  "exchange":"Razmjena",
+  "use_funds_from_wallet": "Koristi sredstva iz novčanika",
+  "primary_wallet": "Primarni",
+  "connected_wallet":"Povezani Novčanik",
+  "external_wallet": "Vanjski Novčanik",
+  "input_address":"Unesi Adresu",
+  "receive_to_wallet":"Primi u Novčanik",
+  "sand_to_wallet": "Pošalji-u Novčanik",
+  "send_from_wallet":"Pošalji-iz Novčanika",
+  "input_amount":"Unesi Iznos",
+  "select_network": "Odaberi Mrežu",
+  "ok": "U redu",
+  "no_extra_fees": "Bez dodatnih troškova",
+  "estimated_rate": "Procijenjena stopa",
+  "please_enter_amount": "Molimo unesite iznos",
+  "available": "Dostupno:",
+  "current_balance": "Trenutno Stanje"
+},
 
+"wallet_connect":{
+  "wallet_connect":"WalletConnect",
+  "buy_usdt":"Kupi USDT",
+  "generate_address":"Generisana\nAdresa",
+  "select_deposit_option":"Opcija Depozita",
+  "select_network":"Odaberi Mrežu",
+  "is_communications_protocol":" je protokol za komunikaciju za web3, omogućava",
+  "ecosystem_together":"ekosistemu da se poveže i interaktira sigurno između novčanika i aplikacija.",
+  "next":"Dalje",
+  "scan_code_to_connect":"Skenirajte kod za povezivanje vašeg novčanika",
+  "copy_address":"Kopiraj Adresu",
+  "selected_network":"Odabrana Mreža – ",
+  "change_network":"Promijeni Mrežu",
+  "deposit":"Depozit ",
+  "available_balance":"Dostupno stanje: ",
+  "submit":"Pošalji",
+  "error_selected_network":"Prvo morate odabrati mrežu",
+  "code_copied":"Kod kopiran u međuspremnik",
+  "rejected_transaction":"Korisnik je odbio transakciju",
+  "deposit_submitted":"Zahtjev za Depozit Uspješno Poslat",
+  "enter_amount":"Unesite iznos",
+ "waiting_confirmation":"Čekanje potvrde\noperacije u novčaniku",
+ "choose_correct":"Odaberite ispravno platno sučelje!"
+},
+
+  
+"snack_bar_message":{
+  "errors":{
+    "authentication_error": "Greška u autentifikaciji",
+    "invalid_credentials":"Nevažeći podaci za prijavu",
+    "error":"Greška",
+    "login_input_validation": "Uneseni tekst nije e-mail",
+    "password_validate_params": "- Vaša lozinka mora zadovoljiti sljedeće zahtjeve:\n  • Minimalna dužina od 8 karaktera\n  • Bar jedan broj\n  • Bar jedan simbol\n  • Bar jedno veliko slovo\n",
+    "password_input_validation": "Uneseni tekst nije lozinka",
+    "password_not_match": "Lozinke se ne podudaraju",
+    "input_error":"Greška u unosu",
+    "confirm_terms_of_use": "Molimo pročitajte i prihvatite Uslove korištenja",
+    "user_not_exist":"Korisnik s takvim e-mailom ne postoji",
+    "something_went_wrong": "Žao nam je, došlo je do greške",
+    "google_auth_error":"Greška pri Google autentifikaciji. Molimo pokušajte ponovo kasnije ili kontaktirajte podršku ako se problem nastavi.",
+    "not_enough_balance": "Žao nam je, nemate dovoljno sredstava",
+    "blockchain_address_validation": "Uneseni tekst nije blockchain adresa",
+    "please_enter_amount": "Molimo unesite iznos",
+    "CURRENCY_PAYMENT_NOT_FOUND":"Žao nam je, došlo je do greške",
+    "NOT_VALID_BENEFICIARY":"Nevažeća adresa",
+    "code_is_wrong": "2FA kod je pogrešan",
+    "incorrect_old_password": "Pogrešna stara lozinka",
+    "old_password_should_not_be_empty": "Stara lozinka ne smije biti prazna",
+    "new_password_should_not_be_empty": "Nova lozinka ne smije biti prazna",
+    "email_was_not_sent_to_address":"E-mail nije poslan na adresu",
+    "please_fill_field": "Molimo popunite polje",
+    "wrong": "Pogrešno",
+    "pass_verification": "Prođite verifikaciju navedenih tačaka",
+    "should_not_be_empty":"ne smije biti prazno",
+    "no_valid_code": "Nema važećeg koda",
+    "you_cant_deposit": "Ne možete uplatiti depozit",
+    "deposit_unavailable": "Opcija za depozit trenutno nije dostupna, molimo pokušajte ponovo kasnije",
+    "this_option_is_currently_unavailable": "Ova opcija trenutno nije dostupna, molimo pokušajte ponovo kasnije",
+    "swap_is_not_possible": "Zamjena nije moguća s nultim saldom",
+    "withdraw_unavailable": "Opcija za povlačenje trenutno nije dostupna, molimo pokušajte ponovo kasnije",
+    "insufficient_funds": "Nedovoljno sredstava",
+    "please_choose_currency": "Molimo odaberite valutu",
+    "session_is_over":"Sesija je završena, molimo ponovno se prijavite",
+    "token_expired_the_reset_link_was_already_used": "Token je istekao. Link za resetovanje je već korišten",
+    "2FA code is wrong or disabled": "2FA kod je pogrešan",
+    "NOT_VALID_RECIPIENT": "Nevažeća adresa"
+  }
+},
+
+"success": {
+  "success": "Uspješno",
+  "email_was_sent": "E-mail je poslan na adresu",
+  "password_resets_successfully": "Lozinka je uspješno resetovana",
+  "reset_password":"E-mail za resetovanje lozinke je poslan",
+  
+  "copied": "Kopirano",
+  "success_delete_order": "Uspješno obrisana narudžba",
+  "limit_order_created": "Limit narudžba je uspješno kreirana",
+  "order_processing":"Vaša narudžba se obrađuje, molimo sačekajte",
+  "success_delete_all_order": "Uspješno obrisane sve narudžbe",
+  "market_order_created":"Tržišna narudžba je uspješno kreirana",
+  "2fa_is_successfully_disabled": "2FA je uspješno onemogućen",
+  "password_changed_successfully": "Lozinka je uspješno promijenjena",
+  "email_was_sent_to_address": "E-mail je poslan na adresu",
+  "documents_submitted": "Vaši dokumenti su poslani na pregled",
+  "2fa_successfully_enabled": "2FA je uspješno omogućen",
+  "phone_verified": "Telefonski broj je uspješno verifikovan",
+  "verification_code_was_sent_to": "Verifikacijski kod je poslan na",
+  "successful": "Uspješno",
+  "deposit_option": "Opcija za depozit trenutno nije dostupna, molimo pokušajte ponovo kasnije",
+  "market_order_was_successfully":"Tržišna narudžba je uspješno kreirana",
+  "email_is_verified":"Vaš e-mail je verifikovan, Hvala vam!",
+
+  "new_api_key_created": "Novi API ključ je kreiran",
+  "api_key_deleted": "API ključ je obrisan",
+  "api_token_copied": "API Token je kopiran"
+ 
+},
+ 
+"marionette_banner": {
+  "title": "CEX.ba",
+  "subtitle": "Omogućeno od Marionette Software",
+  "marquee_text": "Demo okruženje — Omogućeno od Marionette Software"
+},
+"marionette_form":{
+ "how_will_you":"Kako ćete koristiti",
+ "marionette":"CEX.ba",
+ "contact_form":"Kontakt forma",
+ "name":"Ime",
+ "email":"E-mail",
+ "message":"Poruka",
+ "schedule_review":"Zakaži",
+ "submit":"Pošalji",
+ "email_and_name_empty":"Polja za e-mail i ime moraju biti popunjena",
+ "message_send_successfully":"Poruka je uspješno poslata"
+}
+}
 
 
   
