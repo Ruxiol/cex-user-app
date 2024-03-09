@@ -273,7 +273,7 @@
   "country": "Zemlja",
   "country_of_residence":"Zemlja Prebivališta",
   "identity_city": "Grad",
-  "identity_residential_address": "Adresa stanovanja",
+  "identity_residential_address": "Adresa",
   "identity_postcode": "Poštanski broj",
   "submit": "Pošalji",
   "old_password": "Stara lozinka",
@@ -517,7 +517,7 @@
  "choose_correct":"Odaberite ispravno platno sučelje!"
 },
 
-"snack_bar_message":{
+  "snack_bar_message":{
   "errors":{
     "authentication_error": "Greška u autentifikaciji",
     "invalid_credentials":"Nevažeći podaci za prijavu",
@@ -558,7 +558,7 @@
     "2FA code is wrong or disabled": "2FA kod je pogrešan",
     "NOT_VALID_RECIPIENT": "Nevažeća adresa"
   },
-
+    
   "success": {
     "success": "Uspjeh",
     "email_was_sent": "Email je poslan na adresu ",
@@ -585,11 +585,13 @@
     "api_key_deleted": "API ključ je obrisan",
     "api_token_copied": "API token je kopiran"
   },
+    
   "marionette_banner": {
     "title": "CEX.ba",
     "subtitle": "Omogućeno od strane Marionette Software",
     "marquee_text": "Demo okruženje — Omogućeno od strane Marionette Software"
   },
+    
   "marionette_form": {
     "how_will_you": "Kako ćete koristiti ",
     "marionette": "CEX.ba",
